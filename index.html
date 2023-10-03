@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A&B Jewelry</title>
+    <!-----FAVICON--------->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+
+    <!-----CSS--------->
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <link rel="stylesheet" href="css/store.css">
+    <link rel="stylesheet" href="css/shop.css">
+    
+
+    <!-----Glide-js-Css--------->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.core.min.css"
+    />
+
+
+    <!-----Google-font--------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-----Box-icons--------->
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+
+  </head>
+
+  <body>
+
+
+
+    
+<section class="header">
+  <div class="navbar">
+<a href="index.html" class="logo">
+            <img src="img/logo transparent.png" alt="logo"/>
+          </a>
+          <div>
+<ul id="nav-menu">
+  
+            <li><a href="index.html">home</a></li>
+            <li><a href=#new>NEW</a></li>
+            <li><a href=#top>TOP SELLERS </a></li>
+            <li><a href=#about>about us</a></li>
+            <li class="shop"><a href="shop.html"> <i class='bx bxl-shopify' ></i> SHOP </a></li>
+
+            
+            
+            <li>
+                <div id="bag">
+                <a href="#" id="lg-bag"
+                  ><i class="bx bx-shopping-bag" id="bag"></i
+                > <span class="quantity">0</span> </a>
+                
+</div>      
+</li>  
+            <li>
+              <a href="login.html" id="lg-user"><i class="bx bx-user"></i></a>
+            </li>
+            <a href="#" id="close"> <i class='bx bxs-x-circle' ></i></a>
+          </ul>
+            
+          </div>
+
+          <div id="mobile">            
+            <li>
+                <div id="bag-mobile">
+                <a href="#" id=""
+                  ><i class="bx bx-shopping-bag" id="bag-mobile"></i
+                > <span class="quantity" id="quantity">0</span> </a>
+                
+</div>      
+</li>  
+              <a href="login.html"><i class="bx bx-user"></i></a>
+              <i id="bar"  class='bx bx-menu'></i>
+              
+
+
+
+              
+          </div>
+          </div>
+
+
+
+
+           <div id="card" >
+            
+        
+        <h1>Your Bag</h1>
+                <a href="#" id="closeShopping"> <i class='bx bxs-x-circle' ></i></a>
+<ul id="listCard">
+        <H4>Your Shopping bag is Empty</H4>        
+<!--- <li class="buyItems">
+  <img src="" alt="">
+<div>
+  <h5>Product Name</h5>
+  <h6>Product Price </h6>
+  <div>
+<button class="button-minus" data-id="1">-</button>
+<span class="countOfProduct">1</span>
+<button class="button-plus" data-id="1">+</button>
+  </div>
+</div>
+        </li>---> 
+        </ul>
+        <div class="checkOut">
+          <div class="total">0</div>
+          <div><a href="checkout.html"> CHECKOUT </a></div
+        </div>
+      
+</section>
+
+    
+    <!-- HERO SECTION-->
+    <div class="hero-section">
+      <div class="row">
+        <div class="col-4">
+          <div class="slide-info-wrapper">
+            <!-- SLIDE INFO  1 -->
+            <div class="slide-info active">
+              <div class="slide-name">
+                <h3 class="top-down delay-2">SILVER COLLECTION</h3>
+              </div>
+              <div class="slide-description">
+                <p class="top-down delay-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptas aliquid rem distinctio quaerat ea deserunt perferendis doloremque repellat eligendi.
+                </p>
+              </div>
+              <div class="slide-action">
+                <a href="shop.html" class="btn btn-lg top-down delay-6"> shop now </a>
+              </div>
+            </div>
+            <!-- END SLIDE INFO Wrapper -->
+            <!-- SLIDE INFO -->
+            <div class="slide-info">
+              <div class="slide-name">
+                <h3 class="top-down delay-2">GOLD COLLECTION</h3>
+              </div>
+              <div class="slide-description">
+                <p class="top-down delay-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis consectetur eveniet nihil quidem ipsa debitis quos exercitationem quas harum possimus!
+                </p>
+              </div>
+              <div class="slide-action">
+                <a href="shop.html" class="btn btn-lg top-down delay-6"> shop now </a>
+              </div>
+            </div>
+            <!-- END SLIDE INFO -->
+            <!-- SLIDE INFO -->
+            <div class="slide-info">
+              <div class="slide-name">
+                <h3 class="top-down delay-2">GOLD WHITE COLLECTION</h3>
+              </div>
+              <div class="slide-description">
+                <p class="top-down delay-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam repellendus aliquid veritatis sint porro tempora sapiente voluptatum error impedit animi!
+                </p>
+              </div>
+              <div class="slide-action">
+                <a href="shop.html" class="btn btn-lg top-down delay-6"> shop now </a>
+              </div>
+            </div>
+            <!-- END SLIDE INFO -->
+            <div class="slide-info">
+              <div class="slide-name">
+                <h3 class="top-down delay-2">DIAMOND COLLECTION</h3>
+              </div>
+              <div class="slide-description">
+                <p class="top-down delay-4">
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure cupiditate rerum laboriosam, nobis libero voluptate architecto sapiente? Veniam, esse corporis?
+                </p>
+              </div>
+              <div class="slide-action">
+                <a href="shop.html" class="btn btn-lg top-down delay-6"> shop now </a>
+              </div>
+            </div>
+            <!-- END SLIDE 4 -->
+            <div class="slide-info">
+              <div class="slide-name">
+                <h3 class="top-down delay-2">Oriental gold Collection</h3>
+              </div>
+              <div class="slide-description">
+                <p class="top-down delay-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur cum sequi nulla ex asperiores laudantium deleniti odit velit, nam eaque.
+                </p>
+              </div>
+              <div class="slide-action">
+                <a href="shop.html" class="btn btn-lg top-down delay-6"> shop now </a>
+              </div>
+            </div>
+            <!-- END SLIDE 5 -->
+          </div>
+        </div>
+        <div class="col-8 slide-img-col">
+          <div class="slide-img-wrapper">
+            <div class="slide-img" id="slide-img">
+              <img src="img/products/silver.jpg" alt="" />
+              <img src="img/products/gold.jpg" alt="" />
+              <img src="img/products/gold-white.jpg" alt="" />
+              <img src="img/products/diamond.jpg" alt="" />
+              <img src="img/products/ORIENTAL-COLLECTION.jpg" alt="" />
+            </div>
+          </div>
+          <div class="hero-slide-toggle">
+            <div class="hero-slide-toggle-prev" id="hero-slide-toggle-prev">
+              <i class="bx bxs-left-arrow-square"></i>
+            </div>
+            <div class="hero-slide-index" id="hero-slide-index">1/5</div>
+            <div class="hero-slide-toggle-next" id="hero-slide-toggle-next">
+              <i class="bx bxs-right-arrow-square"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----- BANNER SECTION   --------->
+
+    <div class="section-banner">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-4">
+            <div class="banner">
+              <div
+                class="banner-bg"
+                style="background-image: url(./img/banner2/autumn.jpg)"
+              ></div>
+              <div class="banner-overlay"></div>
+              <div class="banner-text">
+                <h3>Autumn collection</h3>
+                <a href="shop.html" class="btn"> shop now </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="banner">
+              <div
+                class="banner-bg"
+                style="background-image: url(/img/banner2/winter.jpg)"
+              ></div>
+              <div class="banner-overlay"></div>
+              <div class="banner-text">
+                <h3>Winter collection</h3>
+                <a href="shop.html" class="btn"> shop now </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-5">
+            <div class="banner">
+              <div
+                class="banner-bg"
+                style="background-image: url(/img/banner2/spring.jpg)"
+              ></div>
+              <div class="banner-overlay"></div>
+              <div class="banner-text">
+                <h3>Spring collection</h3>
+                <a href="shop.html" class="btn"> shop now </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="banner">
+              <div
+                class="banner-bg"
+                style="background-image: url(/img/banner2/summer4.jpg)"
+              ></div>
+              <div class="banner-overlay"></div>
+              <div class="banner-text">
+                <h3>Summer collection</h3>
+                <a href="shop.html" class="btn"> shop now </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+ <!-- SPECIAL SECTION -->
+
+    
+ <div class="speciale-container">
+ <div
+      class="section-special bg-fixed"
+      style="background-image: url(./img/banner2/summer7.jpg.jpg) ;
+      background-position:left;"
+    >
+      <div class="row">
+        <div class="col-6"></div>
+        <div class="col-6 bg-main">
+          <div class="special-product">
+            <h2>
+                <span class="main-color">Summer</span> collection
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequuntur voluptate, fugit deserunt eos eligendi tempora,
+              quaerat, accusantium est quibusdam accusamus ad illo similique
+              tenetur nam quidem reprehenderit culpa explicabo quisquam.
+            </p>
+            <a href="shop.html" class="btn btn-lg">shop now</a>
+            <div
+              class="special-product-img"
+              style="background-image: url(./img/banner2/summer4.jpg)"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+   
+
+    <!-- NEW Collection SECTION -->
+
+    <div id="new">
+    <div class="section">
+      <div class="section-header">
+        <span class="main-color">n</span>ew collection
+      </div>
+      <div class="container-fluid">
+        <div class="products-slide">
+          <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <li class="glide__slide">
+                  <div class="product">
+                    <div
+                      class="product-img"
+                      data-img-1="img/products/new22.jpg"
+                      data-img-2="img/products/new2.jpg"
+                    >
+                      <div class="product-action">
+                        <a href="shop.html" class="btn">SHOP NOW</a>
+                      
+                      </div>
+                    </div>
+                    <a href="#"  id="product-info">
+                      <div class="product-name">Ceremony collection</div>
+                      <div class="product-price" id="price-edit">
+                        <span class="main-color" >$150.00</span>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div
+                      class="product-img"
+                      data-img-1="img/products/new1.jpg"
+                      data-img-2="img/products/new11.jpg"
+                    >
+                      <div class="product-action">
+                    <a href="shop.html" class="btn">SHOP NOW</a>
+                      </div>
+                    </div>
+                    <div class="product-info">
+                      <div class="product-name">
+                        Pink Rings collection
+                      </div>
+                      <div class="product-price">
+                        <span class="main-color">$180.00</span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div
+                      class="product-img"
+                      data-img-1="img/products/new3.jpg"
+                      data-img-2="img/products/new33.jpg"
+                    >
+                      <div class="product-action">
+                        <a href="shop.html" class="btn">SHOP NOW</a>
+                      </div>
+                    </div>
+                    <div class="product-info">
+                      <div class="product-name">Sapphire Heart Collection</div>
+                      <div class="product-price">
+                        
+                        <span class="main-color">$99.00</span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div
+                      class="product-img"
+                      data-img-1="img/products/new4.jpg"
+                      data-img-2="img/products/new44.jpg"
+                    >
+                      <div class="product-action">
+                        <a href="shop.html" class="btn">SHOP NOW</a>
+                      </div>
+                    </div>
+                    <div class="product-info">
+                      <div class="product-name">Austrian Set collection
+                      </div>
+                      <div class="product-price">
+                        <span class="main-color">$120.00</span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div
+                      class="product-img"
+                      data-img-1="img/products/new55.jpg"
+                      data-img-2="img/products/new5.jpg"
+                    >
+                      <div class="product-action">
+                        <a href="shop.html" class="btn">SHOP NOW</a>
+                      </div>
+                    </div>
+                    <div class="product-info">
+                      <div class="product-name">Candy earrings collection</div>
+                      <div class="product-price">
+                        <span class="main-color">$80.00</span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="glide__arrows" data-glide-el="controls">
+              <button
+                class="glide__arrow glide__arrow--left"
+                data-glide-dir="<"
+              >
+                <i class="bx bx-chevron-left"></i>
+              </button>
+              <button
+                class="glide__arrow glide__arrow--right"
+                data-glide-dir=">"
+              >
+                <i class="bx bx-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+   
+
+ <!-- TOP SELLERS SECTION -->
+
+
+    <div class="section" id="top">
+      <div class="section-header">
+        <span class="main-color">T</span>op sellers
+      </div>
+      <div class="container-fluid">
+        <div class="products-slide">
+          <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <li class="glide__slide">
+                  <div class="product">
+                    <div
+                      class="product-img"
+                      data-img-1="img/products/oriental11.jpg"
+                      data-img-2="img/products/oriental1.jpg"
+                    >
+                      <div class="product-action">
+                        <a href="shop.html" class="btn">SHOP NOW</a>
+                      </div>
+                    </div>
+                    <a href="#" class="product-info" id="product-info">
+                      <div class="product-name">Rainbow Rings</div>
+                      <div class="product-price">
+                        <del>€1300</del>
+                        <span class="main-color">€1000</span>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div
+                      class="product-img"
+                      data-img-1="img/products/winter1.jpg"
+                      data-img-2="img/products/winter11.jpg"
+                    >
+                      <div class="product-action">
+                        <a href="shop.html" class="btn">SHOP NOW</a>
+                      </div>
+                    </div>
+                    <div class="product-info">
+                      <div class="product-name">
+                        frozen nicklace
+                      </div>
+                      <div class="product-price">
+                        <del>€450</del>
+                        <span class="main-color">€300</span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div
+                      class="product-img"
+                      data-img-1="img/products/spring22.jpg"
+                      data-img-2="img/products/spring2.jpg"
+                    >
+                      <div class="product-action">
+                        <a href="shop.html" class="btn">SHOP NOW</a>
+                      </div>
+                    </div>
+                    <div class="product-info">
+                      <div class="product-name">flower earrings</div>
+                      <div class="product-price">
+                        <del>€190</del>
+                        <span class="main-color">€150</span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div
+                      class="product-img"
+                      data-img-1="img/products/autumn4.jpg"
+                      data-img-2="img/products/autumn44.jpg"
+                    >
+                      <div class="product-action">
+                        <a href="shop.html" class="btn">SHOP NOW</a>
+                      </div>
+                    </div>
+                    <div class="product-info">
+                      <div class="product-name">Autumn ring</div>
+                      <div class="product-price">
+                        <del>€400</del>
+                        <span class="main-color">€350</span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div
+                      class="product-img"
+                      data-img-1="img/products/gold22.jpg"
+                      data-img-2="img/products/gold2.jpg"
+                    >
+                      <div class="product-action">
+                        <a href="shop.html" class="btn">SHOP NOW</a>
+                      </div>
+                    </div>
+                    <div class="product-info">
+                      <div class="product-name">Heart RING</div>
+                      <div class="product-price">
+                        <del>€1200</del>
+                        <span class="main-color"> €999/span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="glide__arrows" data-glide-el="controls">
+              <button
+                class="glide__arrow glide__arrow--left"
+                data-glide-dir="<"
+              >
+                <i class="bx bx-chevron-left"></i>
+              </button>
+              <button
+                class="glide__arrow glide__arrow--right"
+                data-glide-dir=">"
+              >
+                <i class="bx bx-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<!-- About-us SECTION -->
+
+<div class="about-us" id="about">
+  <div class="aboutus-container">
+<div class="aboutus-row">
+<div class="aboutus-flex">
+  <h2> <span class="main-color">A</span>bout us</h2>
+  <h3>Discover our story</h3>
+  <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, laudantium velit illum minus amet tempore dolor ea sint, dolore ex quos blanditiis quaerat mollitia obcaecati nisi odit quis unde aliquam maxime? Sit, molestias. Ex dolor, eum omnis quidem corporis assumenda iusto quibusdam delectus repellendus iste ut tempora ipsam nulla esse reiciendis voluptatibus sapiente? Dolore asperiores quos explicabo repellendus atque minima eius, adipisci aperiam ad hic, quas sapiente culpa deserunt accusamus.
+  </p>
+</div>
+<div class="aboutus-flex">
+  <img src="img/logo-white.png" alt="logo">
+</div>
+</div>
+  </div>
+</div>
+
+
+
+<footer>
+      <div class="footer-content">
+        <div class="col">
+          <img class="footer-logo" src="img/logo transparent.png" alt="logo" />
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea
+            asperiores doloremque facilis eaque quas quos laborum ut fugiat
+            ipsam architecto?
+          </p>
+        </div>
+
+        
+        <div class="col">
+          <h3>Links</h3>
+          <ul class="footer-ul">
+            <li class="footer-li"><a href="index.html"> Home </a></li>
+            <li class="footer-li"><a href="#new"> NEW COLLECTION</a></li>
+            <li class="footer-li"><a href="#top"> TOP SELLERS</a></li>
+            <li class="footer-li"><a href="#about"> About us</a></li>
+            <li class="footer-li"><a href="shop.html"> SHOP</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          
+<form action="#" class="footer-form">
+
+<h3>Contact us</h3>
+<input type="text" name="full_name" class="contact-input" placeholder="Full Name " required>
+<input type="email" name="email" class="email-input" placeholder="Email Address" required>
+<input type="text" name="message" class="message-input" placeholder="message" required>
+<button class="footer-submit" onclick="alert('Thank you for reaching out A&B Jewelry , We have received your message and will be in touch')">Submit</button>
+</form>
+        </div>
+        <div class="col">
+          <h3 class="get-footer">Get in touch</h3>
+
+          <form class="form-footer">
+            <h5 style="color: rgb(26, 25, 25)">Newsletter</h5>
+            <i class="bx bx-envelope"></i>
+            <input type="email" placeholder="Enter your email id" required />
+            <button type="submit"><i class="bx bx-right-arrow-alt"></i></button>
+          </form>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100092346667888"><i class="bx bxl-facebook-circle"></i></a>
+            <a href="https://twitter.com/Sayes_devloper"><i class="bx bxl-twitter"></i></a>
+            <a href="https://www.instagram.com/amine_sayes/"><i class="bx bxl-instagram"></i></a>
+            <a href="https://web.whatsapp.com/"><i class="bx bxl-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <p class="copyright">Sayes development ©</p>
+    </footer>
+
+    <!-----Glide-js--------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+    <!-----three-js--------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r127/three.min.js"></script>
+    <!-----GSAP--------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <!-----Hover EFFECTS--------->
+    <script src="js/hover-effect.umd.js"></script>
+    <!-----APP JS--------->
+    <script src="js/app.js"></script>
+    <!-----Store JS--------->
+    <script src="js/store.js"></script>
+
+
+    
+  </body>
+</html>

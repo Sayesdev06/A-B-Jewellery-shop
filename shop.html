@@ -1,0 +1,1711 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A&B Jewelry</title>
+    <!-----FAVICON--------->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+
+    <!-----CSS--------->
+    <link rel="stylesheet" href="/css/app.css" />
+    <link rel="stylesheet" href="css/shop.css">
+    <link rel="stylesheet" href="css/store.css">
+
+    <!-----Glide-js-Css--------->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.core.min.css"
+    />
+
+    <!-----Google-font--------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-----Box-icons--------->
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+<section class="header">
+  <div class="navbar">
+<a href="index.html" class="logo">
+            <img src="img/logo transparent.png" alt="logo"/>
+          </a>
+          <div>
+<ul id="nav-menu">
+  
+            <li><a href="index.html">home</a></li>
+            <li><a href=#new>NEW</a></li>
+            <li><a href=#top>TOP SELLERS </a></li>
+            <li><a href=#about>about us</a></li>
+            <li class="shop"><a href="shop.html"> <i class='bx bxl-shopify' ></i> SHOP </a></li>
+
+            
+            
+            <li>
+                <div id="bag">
+                <a href="#" id="lg-bag"
+                  ><i class="bx bx-shopping-bag" id="bag"></i
+                > <span class="quantity">0</span> </a>
+                
+</div>      
+</li>  
+            <li>
+              <a href="login.html" id="lg-user"><i class="bx bx-user"></i></a>
+            </li>
+            <a href="#" id="close"> <i class='bx bxs-x-circle' ></i></a>
+          </ul>
+            
+          </div>
+
+          <div id="mobile">            
+            <li>
+                <div id="bag-mobile">
+                <a href="#" id=""
+                  ><i class="bx bx-shopping-bag" id="bag-mobile"></i
+                > <span class="quantity" id="quantity">0</span> </a>
+                
+</div>      
+</li>  
+              <a href="login.html"><i class="bx bx-user"></i></a>
+              <i id="bar"  class='bx bx-menu'></i>
+              
+
+
+
+              
+          </div>
+          </div>
+
+
+
+
+           <div id="card" >
+            
+        
+        <h1>Your Bag</h1>
+                <a href="#" id="closeShopping"> <i class='bx bxs-x-circle' ></i></a>
+<ul id="listCard">
+        <H4>Your Shopping bag is Empty</H4>        
+<!--- <li class="buyItems">
+  <img src="" alt="">
+<div>
+  <h5>Product Name</h5>
+  <h6>Product Price </h6>
+  <div>
+<button class="button-minus" data-id="1">-</button>
+<span class="countOfProduct">1</span>
+<button class="button-plus" data-id="1">+</button>
+  </div>
+</div>
+        </li>---> 
+        </ul>
+        <div class="checkOut">
+          <div class="total">0</div>
+          <div><a href="checkout.html"> CHECKOUT </a></div
+        </div>
+      
+</section>
+
+<section class="product-manger">
+<div class="product-container">
+<div class="product-header" >
+<h1>A&B SHOP</h1>
+<i class='bx bxl-shopify' ></i>
+</div>
+</div>
+
+
+
+    <div class="filter-section">
+      <ul class="filter-list">
+        
+        <H2> <i class='bx bx-search' ></i>Filter by:</H2>
+        <li data-filter="all" class="active">All</li>
+        <li data-filter="New">New Collection</li>
+        <li data-filter="Top">Top sellers</li>
+        <li data-filter="Autumn">AUTUMN COLLECTION</li>
+        <li data-filter="Winter">WINTER COLLECTION</li>
+        <li data-filter="Spring">SPRING COLLECTION</li>
+        <li data-filter="Summer">SUMMER COLLECTION</li>
+        <li data-filter="Silver">SILVER COLLECTION</li>
+        <li data-filter="Gold">GOLD COLLECTION</li>
+        <li data-filter="White">WHITE GOLD COLLECTION</li>
+        <li data-filter="Diamond">DIAMOND COLLECTION</li>
+        <li data-filter="Oriental">ORIENTAL GOLD JEWELRY</li>
+      </ul>
+
+<div class="shop-collections">
+  <div class="collection1" id="New"   data-filter="New" >
+      <span class="main-color">N</span>EW collection
+      <ul id="autoWidth" class="cs-hidden">
+       
+
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/new22.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class ="add"  data-product-id="52">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name" >ceremony necklace</a>
+                
+              </div>
+              <!-- price-->
+              <a href="#" class="price">150</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+ <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/new1.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class ="add"  data-product-id="51">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name" >Pink Ring</a>
+              </div>
+              <!-- price-->
+              <a href="#" class="price">180</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/new3.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class="add" data-product-id="53">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name" >sapphire heart</a>
+              </div>
+              <!-- price-->
+<a href="#" class="price">99</a><span class="main-color">€</span>            
+</div>
+          </div>
+        </li>
+
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/new44.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class="add"  data-product-id="54">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name">Austrian Set</a>
+              </div>
+              <!-- price-->
+              <a href="#" class="price">120</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/new55.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class="add"  data-product-id="55">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name">Candy earrings</a>
+              </div>
+              <!-- price-->
+              <a href="#" class="price">80</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  <div class="collection1" id="Top" data-filter="Top"  >
+      <span class="main-color">T</span>OP SELLERS
+      <ul id="autoWidth" class="cs-hidden">
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/oriental1.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class ="add"  data-product-id="21">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name" >Rainbow Ring</a>
+              </div>
+              <!-- price-->
+              <a href="#" class="price">1100</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/winter1.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class ="add"  data-product-id="36">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name" >frozen nicklace</a>
+              </div>
+              <!-- price-->
+              <a href="#" class="price">300</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/spring2.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class ="add"  data-product-id="32">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name" >flower earrings</a>
+                
+              </div>
+              <!-- price-->
+              <a href="#" class="price">150</a> <span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/autumn4.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class="add"  data-product-id="44">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name">season ring</a>
+              </div>
+              <!-- price-->
+              <a href="#" class="price">350</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/gold2.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class ="add"  data-product-id="7">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name" >Heart RING</a>
+                
+              </div>
+              <!-- price-->
+              <a href="#" class="price">1000</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+
+  <div class="collection1" id="Autumn" data-filter="Autumn" >
+      <span class="main-color">A</span>utumn collection
+      <ul id="autoWidth" class="cs-hidden">
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/autumn1.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class ="add"  data-product-id="41">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name" >leaf earrings</a>
+              </div>
+              <!-- price-->
+              <a href="#" class="price">150</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/autumn2.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class ="add"  data-product-id="42">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name" >necklace maple leaf</a>
+                
+              </div>
+              <!-- price-->
+              <a href="#" class="price">450</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/autumn3.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class="add" data-product-id="43">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name" >Drop earrings</a>
+              </div>
+              <!-- price-->
+<a href="#" class="price">180</a><span class="main-color">€ </span>           
+</div>
+          </div>
+        </li>
+
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/autumn4.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class="add"  data-product-id="44">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name">season ring</a>
+              </div>
+              <!-- price-->
+              <a href="#" class="price">350</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/autumn5.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class="add"  data-product-id="45">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name">leaf bracelet</a>
+              </div>
+              <!-- price-->
+              <a href="#" class="price">230</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+<div class="collection1" id="Winter" data-filter="Winter" >
+      <span class="main-color">W</span>inter Collection
+      <ul id="autoWidth" class="cs-hidden">
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/winter1.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class ="add"  data-product-id="36">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name" >frozen nicklace</a>
+              </div>
+              <!-- price-->
+              <a href="#" class="price">300</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/winter2.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class ="add"  data-product-id="37">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name" >snowflake earrings</a>
+                
+              </div>
+              <!-- price-->
+              <a href="#" class="price">140</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/winter3.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class="add" data-product-id="38">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name" >Snow braclet</a>
+              </div>
+              <!-- price-->
+<a href="#" class="price">100</a><span class="main-color">€</span>            
+</div>
+          </div>
+        </li>
+
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/winter4.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class="add"  data-product-id="39">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name">snowflake ring </a>
+              </div>
+              <!-- price-->
+              <a href="#" class="price">140</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/winter5.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class="add"  data-product-id="40">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name">snowflake necklace</a>
+              </div>
+              <!-- price-->
+              <a href="#" class="price">250</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+   <div class="collection1" id="Spring" data-filter="Spring" >
+      <span class="main-color">S</span>PRING Collection
+      <ul id="autoWidth" class="cs-hidden">
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/spring1.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class ="add"  data-product-id="31">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name" >Claire Necklace</a>
+              </div>
+              <!-- price-->
+              <a href="#" class="price">415</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/spring2.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class ="add"  data-product-id="32">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name" >flower earrings</a>
+                
+              </div>
+              <!-- price-->
+              <a href="#" class="price">150</a> <span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/spring3.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class="add" data-product-id="33">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name" >butterfly braclet</a>
+              </div>
+              <!-- price-->
+<a href="#" class="price">315</a><span class="main-color">€</span>            
+</div>
+          </div>
+        </li>
+
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/spring4.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class="add"  data-product-id="34">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name">Flower RING</a>
+              </div>
+              <!-- price-->
+              <a href="#" class="price">400</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/spring5.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class="add"  data-product-id="35">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name">CHANEL | Earrings</a>
+              </div>
+              <!-- price-->
+              <a href="#" class="price">900</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+ <div class="collection1" id="Summer" data-filter="Summer" >
+      <span class="main-color">S</span>UMMER Collection
+      <ul id="autoWidth" class="cs-hidden">
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/summer1.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class ="add"  data-product-id="26">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name" >Sun Necklace</a>
+              </div>
+              <!-- price-->
+              <a href="#" class="price">900</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/summer2.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class ="add"  data-product-id="27">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name" >Seashell Necklace</a>
+                
+              </div>
+              <!-- price-->
+              <a href="#" class="price">800</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/summer3.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class="add" data-product-id="28">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name" >Ashore Bracelet</a>
+              </div>
+              <!-- price-->
+<a href="#" class="price">500</a><span class="main-color">€</span>            
+</div>
+          </div>
+        </li>
+
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/summer4.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class="add"  data-product-id="29">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name">Beachy Earrings</a>
+              </div>
+              <!-- price-->
+              <a href="#" class="price">200</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/summer5.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class="add"  data-product-id="30">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name">SEASHELL RING</a>
+              </div>
+              <!-- price-->
+              <a href="#" class="price">400</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+
+<div class="collection1" id="silver" data-filter="Silver">
+      <span class="main-color">S</span>ilver collection
+      <ul id="autoWidth" class="cs-hidden">
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/silver1.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class ="add"  data-product-id="1">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name" >butterfly necklace</a>
+              </div>
+              <!-- price-->
+              <a href="#" class="price">140</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/silver2.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class ="add"  data-product-id="2">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name" >infinity bracelet</a>
+                
+              </div>
+              <!-- price-->
+              <a href="#" class="price">90</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/silver3.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class="add" data-product-id="3">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name" >day time earrings</a>
+              </div>
+              <!-- price-->
+<a href="#" class="price">70</a><span class="main-color">€</span>            
+</div>
+          </div>
+        </li>
+
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/silver4.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class="add"  data-product-id="4">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name">Ever ring</a>
+              </div>
+              <!-- price-->
+              <a href="#" class="price">190</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/silver5.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class="add"  data-product-id="5">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name">Star nicklace</a>
+              </div>
+              <!-- price-->
+              <a href="#" class="price">180</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+
+   <div class="collection1" id="gold" data-filter="Gold" >
+      <span class="main-color">G</span>old collection
+      <ul id="autoWidth" class="cs-hidden">
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/gold1.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class ="add"  data-product-id="6">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name" > Clou bracelet</a>
+              </div>
+              <!-- price-->
+              <a href="#" class="price">4200</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/gold2.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class ="add"  data-product-id="7">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name" >Heart RING</a>
+                
+              </div>
+              <!-- price-->
+              <a href="#" class="price">999</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/gold3.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class="add" data-product-id="8">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name" >Gucci Earrings</a>
+              </div>
+              <!-- price-->
+<a href="#" class="price">600</a><span class="main-color">€</span>            
+</div>
+          </div>
+        </li>
+
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/gold4.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class="add"  data-product-id="9">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name">AN NECKLACE</a>
+              </div>
+              <!-- price-->
+              <a href="#" class="price">2800</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/gold5.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class="add"  data-product-id="10">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name">SQUARE RING
+              </div>
+              <!-- price-->
+              <a href="#" class="price">1300</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="collection1" id="Gold-white" data-filter="White">
+      <span class="main-color">W</span>hite gold collection
+      <ul id="autoWidth" class="cs-hidden">
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/white1.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class ="add"  data-product-id="11">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name" >Frenzy NY bracelet</a>
+              </div>
+              <!-- price-->
+              <a href="#" class="price">400</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/white2.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class ="add"  data-product-id="12">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name" >cycle necklace</a>
+                
+              </div>
+              <!-- price-->
+              <a href="#" class="price">670</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/white3.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class="add" data-product-id="13">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name" >elegant bracelet</a>
+              </div>
+              <!-- price-->
+<a href="#" class="price">290</a><span class="main-color">€</span>           
+</div>
+          </div>
+        </li>
+
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/white4.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class="add"  data-product-id="14">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name">stud earrings</a>
+              </div>
+              <!-- price-->
+              <a href="#" class="price">190</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/white5.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class="add"  data-product-id="15">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name">waterfall earrings</a>
+              </div>
+              <!-- price-->
+              <a href="#" class="price">220</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="collection1" id="Diamond" data-filter="Diamond">
+      <span class="main-color">D</span>IAMOND COLLECTION
+      <ul id="autoWidth" class="cs-hidden">
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/diamond1.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class ="add"  data-product-id="16">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name" >Diamond Necklace</a>
+              </div>
+              <!-- price-->
+              <a href="#" class="price">35000</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/diamond2.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class ="add"  data-product-id="17">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name" >Diamond Ring</a>
+                
+              </div>
+              <!-- price-->
+              <a href="#" class="price">17000</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/diamond3.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class="add" data-product-id="18">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name" >DIAMOND EARRINGS</a>
+              </div>
+              <!-- price-->
+<a href="#" class="price">10000</a><span class="main-color">€</span>          
+</div>
+          </div>
+        </li>
+
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/diamond4.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class="add"  data-product-id="19">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name">Diamond Bracelet</a>
+              </div>
+              <!-- price-->
+              <a href="#" class="price">20000</a><div class="main-color"> <span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/diamond5.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class="add"  data-product-id="20">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name">Diamond Wedding Band</a>
+              </div>
+              <!-- price-->
+              <a href="#" class="price">50000</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="collection1" id="Oriental" data-filter="Oriental">
+      <span class="main-color">O</span>RIENTAL Collection
+      <ul id="autoWidth" class="cs-hidden">
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/oriental1.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class ="add"  data-product-id="21">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name" >Rainbow Ring</a>
+              </div>
+              <!-- price-->
+              <a href="#" class="price">1100</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/oriental2.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class ="add"  data-product-id="22">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name" >Royalty earrings</a>
+                
+              </div>
+              <!-- price-->
+              <a href="#" class="price">215</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/oriental3.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class="add" data-product-id="23">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name" >Vintage necklace</a>
+              </div>
+              <!-- price-->
+<a href="#" class="price">900</a><span class="main-color">€</span>           
+</div>
+          </div>
+        </li>
+
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/oriental4.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class="add"  data-product-id="24">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name">Bunch bracelet/a>
+              </div>
+              <!-- price-->
+              <a href="#" class="price">100</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+        <!--ITEM-A-->
+        <li class="item-a">
+          <!-- BOX SLIDER -->
+          <div class="box">
+            <!-- IMAGE-BOX -->
+            <div class="slide-image">
+              <img src="img/products/oriental5.jpg" alt="1" />
+              <!-- Over-lay -->
+              <div class="overlay">
+                <!-- Add-to-cart -->
+                <a href="#" id="btn-shop" class="add"  data-product-id="25">add to cart</a>
+              </div>
+            </div>
+
+            <!-- DETAIL-BOX -->
+            <div class="detail-box">
+              <!-- Type-->
+              <div class="type">
+                <a href="#" class="product-name">infinity pendant necklace</a>
+              </div>
+              <!-- price-->
+              <a href="#" class="price">80</a><span class="main-color">€</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+</div>
+
+</section>
+
+ <footer>
+      <div class="footer-content">
+        <div class="col">
+          <img class="footer-logo" src="img/logo transparent.png" alt="logo" />
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea
+            asperiores doloremque facilis eaque quas quos laborum ut fugiat
+            ipsam architecto?
+          </p>
+        </div>
+
+        
+        <div class="col">
+          <h3>Links</h3>
+          <ul class="footer-ul">
+            <li class="footer-li"><a href="index.html"> Home </a></li>
+            <li class="footer-li"><a href="#new"> NEW COLLECTION</a></li>
+            <li class="footer-li"><a href="#top"> TOP SELLERS</a></li>
+            <li class="footer-li"><a href="#about"> About us</a></li>
+            <li class="footer-li"><a href="shop.html"> SHOP</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          
+<form action="#" class="footer-form">
+
+<h3>Contact us</h3>
+<input type="text" name="full_name" class="contact-input" placeholder="Full Name " required>
+<input type="email" name="email" class="email-input" placeholder="Email Address" required>
+<input type="text" name="message" class="message-input" placeholder="message" required>
+<button class="footer-submit" onclick="alert('Thank you for reaching out A&B Jewelry , We have received your message and will be in touch')">Submit</button>
+</form>
+        </div>
+        <div class="col">
+          <h3 class="get-footer">Get in touch</h3>
+
+          <form class="form-footer">
+            <h5 style="color: rgb(26, 25, 25)">Newsletter</h5>
+            <i class="bx bx-envelope"></i>
+            <input type="email" placeholder="Enter your email id" required />
+            <button type="submit"><i class="bx bx-right-arrow-alt"></i></button>
+          </form>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100092346667888"><i class="bx bxl-facebook-circle"></i></a>
+            <a href="https://twitter.com/Sayes_devloper"><i class="bx bxl-twitter"></i></a>
+            <a href="https://www.instagram.com/amine_sayes/"><i class="bx bxl-instagram"></i></a>
+            <a href="https://web.whatsapp.com/"><i class="bx bxl-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <p class="copyright">Sayes development ©</p>
+    </footer>
+
+
+    <!-----Glide-js--------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+    <!-----three-js--------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r127/three.min.js"></script>
+    <!-----GSAP--------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <!-----Hover EFFECTS--------->
+    <script src="js/hover-effect.umd.js"></script>
+    <!-----APP JS--------->
+    <script src="js/app.js"></script>
+    <!-----SHOP-JS--------->
+    <script src="js/store.js"></script>
+    <!-----Store-JS--------->
+    <script src="js/filter.js"></script>
+    
+  </body>
+</html>
