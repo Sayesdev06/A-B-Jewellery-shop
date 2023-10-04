@@ -742,8 +742,9 @@ border: dashed 1px grey;
   background: #B4B4B3;
   cursor: pointer;
   position: relative;
-  left: 0px;
+  left: 90px;
   font-weight: 500;
+  
 
 }
 
@@ -751,6 +752,7 @@ border: dashed 1px grey;
 .footer-submit:hover {
 background-color: white;
 }
+
 
 
 /*---------- @MEDIA -----------*/
@@ -852,9 +854,14 @@ background-color: white;
   #lg-bag {
     display: none;
   }
-
-
+.footer-submit {
  
+  position: relative;
+  left: 115px;
+
+}
+
+
 }
 
 @media (max-width: 700px) {
@@ -911,7 +918,7 @@ background-color: white;
     position: relative;
     left: 50px;
   }
-}
+
 
 
 .social-icons { 
@@ -920,10 +927,9 @@ background-color: white;
 
 
 
-.footer-submit { 
-  transform: translateX(110px);
-
 }
+
+
 
 
 
