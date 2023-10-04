@@ -54,6 +54,7 @@ a {
   text-transform: uppercase;
   color: black;
   position: relative;
+ 
 }
 
 .navbar li a:hover {
@@ -61,7 +62,7 @@ a {
 }
 
 .navbar .shop { 
-  margin-left: 500px;
+  margin-left: 450px;
 }
 
 /*----- nav logo------*/
@@ -773,6 +774,7 @@ background-color: white;
     background: linear-gradient(   #d5cea3 , black );
     margin-top: 0px;
     z-index: 0.5;
+    white-space: nowrap;
   }
 
   #nav-menu.active {
@@ -798,10 +800,7 @@ background-color: white;
   #nav-menu li:hover {
     color: grey;
   }
-  .navbar li .search {
-    margin: auto;
-    
-  }
+ 
 
   .navbar .shop { 
   margin-left: 0px;
