@@ -1,54 +1,43 @@
-
-
 * {
   margin: 0;
-  padding: 0; 
-
-
+  padding: 0;
 }
 
 html {
-  font-size: 20px;                        
-
+  font-size: 20px;
 }
-
 
 body {
-    font-family: "Antonio", sans-serif;
-    background-color: #DDE6ED;
-    overflow-x: hidden;
-    padding-top: 70px;
+  font-family: "Antonio", sans-serif;
+  background-color: #dde6ed;
+  overflow-x: hidden;
+  padding-top: 70px;
 }
 
-
 /*---------- Header-----------*/
-.product-header { 
+.product-header {
   margin-top: 30px;
   font-size: 50px;
-  background: linear-gradient(#d5cea3 , #B4B4B3  );
+  background: linear-gradient(#d5cea3, #b4b4b3);
   display: flex;
   align-items: center;
   justify-content: center;
   width: fit-content;
-  padding: 20px 20px 20PX 30PX ;
+  padding: 20px 20px 20px 30px;
   border-radius: 30%;
 }
 
-.product-header i  {
+.product-header i {
   font-size: 100px;
- }
+}
 
-
- .product-container {
- display: flex; 
- justify-content: center;
- }
+.product-container {
+  display: flex;
+  justify-content: center;
+}
 /*---------- Filter -----------*/
 
-
-
-
-.filter-section  {
+.filter-section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,14 +45,13 @@ body {
   gap: 3rem;
   padding: 2rem 0;
   margin-top: 50px;
- 
 }
-.filter-section  .filter-list{
+.filter-section .filter-list {
   display: flex;
   align-items: center;
   gap: 1rem;
   border: 1px dashed grey;
-  padding: 10px 10px ;
+  padding: 10px 10px;
 }
 .filter-list li {
   padding: 8px;
@@ -72,184 +60,162 @@ body {
   list-style: none;
   background: linear-gradient(#d5cea3, #dde6ed);
   border-radius: 20%;
-  border: solid 1px grey ;
+  border: solid 1px grey;
   font-size: 15px;
   text-transform: uppercase;
 }
 .filter-section ul li.active {
   color: #fff;
-  background: #B4B4B3;
+  background: #b4b4b3;
 }
 
-
 .filter-section h2 {
-  border: 5px double #B4B4B3;;
+  border: 5px double #b4b4b3;
   padding: 3px 3px;
   text-transform: uppercase;
   color: #272829;
-  white-space: nowrap; 
+  white-space: nowrap;
 }
-
 
 /*---------- bOXES STYLE  -----------*/
 
-
-
 #New .box {
   width: 300px;
-  box-shadow: 5px 5px 5px 5px #8B1874;
+  box-shadow: 5px 5px 5px 5px #8b1874;
   border-radius: 10px;
   overflow: hidden;
   margin-top: 100px;
 }
 
-
-#New .main-color { 
-  color: #8B1874;
+#New .main-color {
+  color: #8b1874;
 }
-
 
 #Top .box {
   width: 300px;
-  box-shadow: 5px 5px 5px 5px #D71313;
+  box-shadow: 5px 5px 5px 5px #d71313;
   border-radius: 10px;
   overflow: hidden;
   margin-top: 100px;
 }
 
-
-#Top .main-color { 
-  color: #D71313;
+#Top .main-color {
+  color: #d71313;
 }
-
-
-
 
 #Autumn .box {
   width: 300px;
-  box-shadow: 5px 5px 5px 5px #C08261;
+  box-shadow: 5px 5px 5px 5px #c08261;
   border-radius: 10px;
   overflow: hidden;
   margin-top: 100px;
 }
 
-
-#Autumn .main-color { 
-  color: #C08261;
+#Autumn .main-color {
+  color: #c08261;
 }
 
 #Winter .box {
   width: 300px;
-  box-shadow: 5px 5px 5px 5px #4F709C;
+  box-shadow: 5px 5px 5px 5px #4f709c;
   border-radius: 10px;
   overflow: hidden;
   margin-top: 100px;
 }
 
-
-#Winter .main-color { 
-  color: #4F709C;
+#Winter .main-color {
+  color: #4f709c;
 }
 
 #Spring .box {
   width: 300px;
-  box-shadow: 5px 5px 5px 5px #79AC78;
+  box-shadow: 5px 5px 5px 5px #79ac78;
   border-radius: 10px;
   overflow: hidden;
   margin-top: 100px;
 }
 
-
-#Spring .main-color { 
-  color: #79AC78;
+#Spring .main-color {
+  color: #79ac78;
 }
 
 #Summer .box {
   width: 300px;
-  box-shadow: 5px 5px 5px 5px #FFB000;
+  box-shadow: 5px 5px 5px 5px #ffb000;
   border-radius: 10px;
   overflow: hidden;
   margin-top: 100px;
 }
 
-
-#Summer .main-color { 
-  color: #FFB000;
+#Summer .main-color {
+  color: #ffb000;
 }
-
 
 #silver .box {
   width: 300px;
-  box-shadow: 5px 5px 5px 5px #ADC4CE;
+  box-shadow: 5px 5px 5px 5px #adc4ce;
   border-radius: 10px;
   overflow: hidden;
   margin-top: 100px;
-  
 }
 
-
-#silver .main-color { 
-  color: #ADC4CE;
+#silver .main-color {
+  color: #adc4ce;
 }
 
 #gold .box {
   width: 300px;
-  box-shadow: 5px 5px 5px 5px #D5CEA3 ;
+  box-shadow: 5px 5px 5px 5px #d5cea3;
   border-radius: 10px;
   overflow: hidden;
   margin-top: 100px;
 }
 
-#gold .main-color { 
-  color: ##D5CEA3 ;
+#gold .main-color {
+  color: ##d5cea3;
 }
 
 #Gold-white .box {
   width: 300px;
-  box-shadow: 5px 5px 5px 5px #7D7463;
+  box-shadow: 5px 5px 5px 5px #7d7463;
   border-radius: 10px;
   overflow: hidden;
   margin-top: 100px;
 }
 
-
-#Gold-white .main-color { 
-  color: #7D7463 ;
+#Gold-white .main-color {
+  color: #7d7463;
 }
 
 #Diamond .box {
   width: 300px;
-  box-shadow: 5px 5px 5px 5px #A1CCD1;
+  box-shadow: 5px 5px 5px 5px #a1ccd1;
   border-radius: 10px;
   overflow: hidden;
   margin-top: 100px;
 }
-#Diamond  .main-color { 
-  color: #A1CCD1;
+#Diamond .main-color {
+  color: #a1ccd1;
 }
-
 
 #Oriental .box {
   width: 300px;
-  box-shadow: 5px 5px 5px 5px #EAB2A0;
+  box-shadow: 5px 5px 5px 5px #eab2a0;
   border-radius: 10px;
   overflow: hidden;
   margin-top: 100px;
 }
 
-#Oriental  .main-color { 
-  color: #EAB2A0;
+#Oriental .main-color {
+  color: #eab2a0;
 }
 
-.collection1 { 
+.collection1 {
   margin-top: 50px;
   text-align: center;
   text-transform: uppercase;
   font-size: 2rem;
 }
-
-
-
 
 .slide-image {
   height: 450px;
@@ -295,7 +261,6 @@ body {
   color: rgb(41, 39, 39);
   font-weight: 600;
   font-size: 40px;
-
 }
 
 .overlay {
@@ -321,13 +286,10 @@ body {
   animation: fade 0.5s;
 }
 
-
-
-.cs-hidden li { 
-    display: inline-block;
-    margin: 20px;
+.cs-hidden li {
+  display: inline-block;
+  margin: 20px;
 }
-
 
 #btn-shop {
   padding: 0.2rem 1.3rem;
@@ -342,7 +304,6 @@ body {
   background-color: #d8d8d8;
 }
 
-
 @keyframes fade {
   0% {
     opacity: 0;
@@ -352,119 +313,93 @@ body {
   }
 }
 
-
 /*---------- @MEDIA -----------*/
 
+@media (max-width: 700px) {
+  .product-header {
+    margin-top: 50px;
 
-@media (max-width: 700px) { 
+    font-size: 20px;
+    background: linear-gradient(#d5cea3, #b4b4b3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 5px 5px;
+    border-radius: 30%;
+  }
 
+  .product-header i {
+    font-size: 50px;
+  }
 
-  .product-header { 
-  margin-top: 50px;
-  
-  font-size: 20px;
-  background: linear-gradient(#d5cea3 , #B4B4B3  );
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: fit-content;
-  padding: 5px 5px ;
-  border-radius: 30%;
-}
+  .filter-section .filter-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
 
-.product-header i  {
-  font-size: 50px;
- }
+  .filter-section h2 {
+    border: 5px double #b4b4b3;
+    padding: 3px 3px;
+    text-transform: uppercase;
+    color: #272829;
+  }
 
+  .collection1 .box {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 
+  .slide-image {
+    height: 400px;
+    position: relative;
+  }
 
- .filter-section  .filter-list {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content:center;
-}
+  .box .price {
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 0px;
+  }
 
+  .box .product-name {
+    font-size: 15px;
+  }
 
-.filter-section h2 {
-  border: 5px double #B4B4B3;;
-  padding: 3px 3px;
-  text-transform: uppercase;
-  color: #272829;
-}
+  #silver .box {
+    margin-top: 10px;
+  }
 
-  .collection1 .box { 
-  font-size: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content:center;
-  
-}
+  #gold .box {
+    margin-top: 10px;
+  }
 
-.slide-image {
-  height: 400px;
-  position: relative;
-}
+  #Gold-white .box {
+    margin-top: 10px;
+  }
 
+  #Diamond .box {
+    margin-top: 10px;
+  }
 
-.box .price {
-  font-weight: 600;
-  font-size: 20px;
-  margin-right:0px ;
-  
-}
+  #Oriental .box {
+    margin-top: 10px;
+  }
 
-.box .product-name { 
-  font-size: 15px;
-  
-}
+  #btn-shop {
+    padding: 0.1rem 0.5rem;
+    background-color: #0e0d0d;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 10px;
+    transform: translateY(70px);
+    font-size: 20px;
+  }
 
-
-
-#silver .box { 
-  margin-top: 10px;
-}
-
-
-#gold .box { 
-  margin-top: 10px;
-}
-
-
-#Gold-white .box { 
-  margin-top: 10px;
-}
-
-#Diamond .box { 
-  margin-top: 10px;
-}
-
-#Oriental .box { 
-  margin-top: 10px;
-}
-
-
-#btn-shop {
-  padding: 0.1rem 0.5rem;
-  background-color: #0e0d0d;
-  color: white;
-  text-transform: uppercase;
-  border-radius: 10px;
-  transform: translateY(70px);
-  font-size: 20px;
-}
-
-#btn-shop:hover {
-  background-color: #d8d8d8;
-}
-
-
-
-
-
-
-
-
-
-
+  #btn-shop:hover {
+    background-color: #d8d8d8;
+  }
 }

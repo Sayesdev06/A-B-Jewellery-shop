@@ -54,14 +54,13 @@ a {
   text-transform: uppercase;
   color: black;
   position: relative;
- 
 }
 
 .navbar li a:hover {
   color: white;
 }
 
-.navbar .shop { 
+.navbar .shop {
   margin-left: 450px;
 }
 
@@ -304,8 +303,7 @@ a {
 /*----- SPECIAL  section ------*/
 
 .section-special {
-margin: 100px 0 150px;
-
+  margin: 100px 0 150px;
 }
 
 .bg-fixed {
@@ -444,15 +442,13 @@ margin: 100px 0 150px;
   transform: translateY(0);
 }
 
-#product-info{ 
+#product-info {
   transform: translateX(70px);
 }
 
 #price-edit {
   transform: translateX(60px);
 }
-
-
 
 .product-info {
   padding: 0 15px;
@@ -462,7 +458,6 @@ margin: 100px 0 150px;
 .product-info > div {
   padding-top: 15px;
 }
-
 
 .product-name {
   font-size: 1.25rem;
@@ -512,7 +507,6 @@ margin: 100px 0 150px;
 .about-us {
   padding: 80px 20px;
   margin-top: 80px;
- 
 }
 
 .aboutus-container {
@@ -571,7 +565,6 @@ footer {
   font-size: 15px;
   line-height: 20px;
   border: 10px #f9fbe7 outset;
-  
 }
 
 .footer-content {
@@ -588,8 +581,6 @@ footer {
   padding: 10px;
 }
 
-
-
 .col:nth-child(1),
 .col:nth-child(2),
 .col:nth-child(3) {
@@ -605,7 +596,6 @@ footer {
   width: fit-content;
   margin-bottom: 30px;
   position: relative;
-  
 }
 
 .col:nth-child(1),
@@ -625,14 +615,12 @@ footer {
   width: fit-content;
 }
 
-
-.get-footer { 
+.get-footer {
   transform: translateX(140px);
 }
 .footer-ul li {
   list-style: none;
   margin-bottom: 20px;
-  
 }
 
 .footer-li a {
@@ -683,14 +671,14 @@ form button {
   line-height: 40px;
   font-size: 20px;
   background-color: transparent;
-  background: #B4B4B3;
+  background: #b4b4b3;
   cursor: pointer;
   position: relative;
   left: 100px;
 }
 
 .social-icons i:hover {
-background-color: white;
+  background-color: white;
 }
 
 hr {
@@ -706,26 +694,23 @@ hr {
   font-size: 20px;
 }
 
-.copyright:hover { 
+.copyright:hover {
   color: white;
 }
 
-
-
 /*--------- FROM FOOTER -------*/
 
-.footer-form { 
+.footer-form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.footer-form  input{ 
-margin: 7px;
-background: transparent;
-border: dashed 1px grey;
+.footer-form input {
+  margin: 7px;
+  background: transparent;
+  border: dashed 1px grey;
 }
-
 
 .message-input {
   padding: 30px;
@@ -734,26 +719,21 @@ border: dashed 1px grey;
 
 .footer-submit {
   margin-top: 10px;
-  width:min-content;
+  width: min-content;
   border-radius: 50px;
   text-align: center;
   font-size: 18px;
   padding: 5px;
-  background: #B4B4B3;
+  background: #b4b4b3;
   cursor: pointer;
   position: relative;
   left: 90px;
   font-weight: 500;
-  
-
 }
-
 
 .footer-submit:hover {
-background-color: white;
+  background-color: white;
 }
-
-
 
 /*---------- @MEDIA -----------*/
 
@@ -773,7 +753,7 @@ background-color: white;
     font-size: 0.7rem;
     margin-left: 0px;
     animation: fade 1s;
-    background: linear-gradient(   #d5cea3 , black );
+    background: linear-gradient(#d5cea3, black);
     margin-top: 0px;
     z-index: 0.5;
     white-space: nowrap;
@@ -795,25 +775,22 @@ background-color: white;
 
   #nav-menu li {
     margin-bottom: 25px;
-    color: white
+    color: white;
   }
-
 
   #nav-menu li:hover {
     color: grey;
   }
- 
 
-  .navbar .shop { 
-  margin-left: 0px;
-}
-
+  .navbar .shop {
+    margin-left: 0px;
+  }
 
   .logo img {
-  height: 40px;
-  width: 100px;
-  margin-left: 0;
-}
+    height: 40px;
+    width: 100px;
+    margin-left: 0;
+  }
 
   #mobile {
     display: flex;
@@ -824,7 +801,7 @@ background-color: white;
   }
   #mobile i {
     padding: 2px;
-  font-size: 25px;
+    font-size: 25px;
   }
 
   #mobile .bx-menu {
@@ -842,9 +819,6 @@ background-color: white;
     font-size: 24px;
   }
 
-
-
-
   #lg-search {
     display: none;
   }
@@ -854,14 +828,10 @@ background-color: white;
   #lg-bag {
     display: none;
   }
-.footer-submit {
- 
-  position: relative;
-  left: 115px;
-
-}
-
-
+  .footer-submit {
+    position: relative;
+    left: 115px;
+  }
 }
 
 @media (max-width: 700px) {
@@ -896,13 +866,11 @@ background-color: white;
 
   footer {
     bottom: unset;
-  
   }
 
-
-  .get-footer { 
-  transform: translateX(0px);
-}
+  .get-footer {
+    transform: translateX(0px);
+  }
   .col {
     flex-basis: 100%;
     padding: 10px;
@@ -919,19 +887,10 @@ background-color: white;
     left: 50px;
   }
 
-
-
-.social-icons { 
-  transform: translateX(-40px);
+  .social-icons {
+    transform: translateX(-40px);
+  }
 }
-
-
-
-}
-
-
-
-
 
 @media (max-width: 700px) {
   .hero-section {
@@ -1112,7 +1071,6 @@ background-color: white;
 @media (max-width: 700px) {
   .speciale-container {
     display: none;
-
   }
 
   .product-info {
