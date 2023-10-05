@@ -1,4 +1,3 @@
-
 ////////////////// Nav-mobile
 
 let bar = document.getElementById("bar");
@@ -123,8 +122,7 @@ document.querySelector(".hero-section").onmouseleave = () => {
 ////////////////// Animation-of-NEW-TOP-collection-sectionS
 
 document.querySelectorAll(".products-slide").forEach((e) => {
-
-  var x = window.matchMedia("(max-width: 700px)"); 
+  var x = window.matchMedia("(max-width: 700px)");
   if (x.matches) {
     new Glide(e.querySelector(".glide"), {
       type: "slider",
@@ -133,16 +131,16 @@ document.querySelectorAll(".products-slide").forEach((e) => {
       rewind: false,
       bound: true,
     }).mount();
+  } else {
+    new Glide(e.querySelector(".glide"), {
+      type: "slider",
+      starAt: 0,
+      perView: 4,
+      rewind: false,
+      bound: true,
+    }).mount();
   }
-
-  else {  new Glide(e.querySelector(".glide"), {
-    type: "slider",
-    starAt: 0,
-    perView: 4,
-    rewind: false,
-    bound: true,
-  }).mount(); }
-});     
+});
 
 document.querySelectorAll(".product-img").forEach((e) => {
   e.style.width = e.parentElement.offsetWidth + "px";
